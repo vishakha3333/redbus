@@ -1,0 +1,746 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    gap: 333px;
+    align-items: center;
+    position: fixed;
+    z-index: 11;
+
+}
+
+.right {
+    width: 228px;
+    height: 74px;
+
+    display: flex;
+    margin-left: -260px;
+}
+
+.r {
+    width: 106px;
+    height: 70px;
+    background-color: #d84e55;
+    border-radius: 7px;
+}
+
+.left {
+    width: 224px;
+    display: flex;
+
+    margin-left: 199px;
+}
+
+.logo {
+    margin-left: 34px;
+}
+
+.r2:hover {
+    background-color: #F0F0F0;
+
+}
+
+
+.r2 {
+    width: 106px;
+    height: 70px;
+    background-color: white;
+    margin-left: 17px;
+    border-radius: 7px;
+    position: relative;
+}
+
+.tag {
+    position: absolute;
+    right: -8px;
+    top: 0px;
+    width: 50px;
+    background-color: #60b681;
+    height: 18px;
+    font-size: 10px;
+    color: white;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 2px;
+}
+
+.heading {
+    position: absolute;
+    top: 130px;
+    left: 270px;
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+}
+
+.boxx {
+    width: 992px;
+    height: 114px;
+    border-radius: 32px;
+    position: absolute;
+    top: 191px;
+    left: 133px;
+
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 5px 12px, rgba(0, 0, 0, 0.05) 0px 0px 0px;
+
+}
+
+.colb {
+    width: 150px;
+    height: 100%;
+    background-color: white;
+    float: left;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: white;
+    top: 39px;
+    left: 250px;
+    padding-left: 5px;
+    border: 1px solid #6b6b6b;
+    padding-top: 5px;
+}
+
+.circle:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.middle-box {
+    width: 1200px;
+    height: 315px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 25px;
+
+    border-radius: 32px;
+    position: absolute;
+    right: 20px;
+    top: 525px;
+    background-color: white;
+}
+
+.threebox {
+    width: 1045px;
+    height: 170px;
+    position: relative;
+    margin-top: 119px;
+    margin-left: 58px;
+    display: flex;
+    gap: 51px;
+}
+
+.box3 {
+    width: 314px;
+    height: 100%;
+    border: 2px solid;
+    border-radius: 32px;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(71.04deg, rgb(12, 57, 139) -6.92%, rgb(62, 118, 216) 109.43%);
+    position: relative;
+}
+
+.small {
+    position: absolute;
+    width: 40px;
+    height: 18px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    right: 148px;
+    top: 23px;
+    padding-top: 2px;
+}
+
+.textt {
+    font-size: 12px;
+    margin-left: 122px;
+    margin-top: -16px;
+}
+
+.small2 {
+    top: 132px;
+    border-radius: 3px;
+    width: 55px;
+    height: 22px;
+    padding-top: 4px;
+    border: 1px dashed;
+    left: 120px;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.all {
+    color: rgb(16, 52, 217);
+    font-weight: 600;
+    border-radius: 1.5rem;
+    border: 1px solid rgb(170, 170, 170);
+    padding: 10px 24px;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+    position: absolute;
+    top: -82px;
+    right: 51px;
+}
+
+.midlow {
+    width: 100%;
+    height: 352px;
+    margin-top: 320px;
+}
+
+.boxxx {
+    width: 400px;
+    height: 250px;
+    background-color: #FAE9EA;
+    margin-left: 17px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    position: relative;
+}
+
+.boxholder {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    margin-top: 60px;
+}
+
+.row {
+    width: 100%;
+    height: 225px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.textr {
+    position: absolute;
+    top: 19px;
+    left: 86px;
+    font-size: 25px;
+    font-weight: 700;
+
+}
+
+.hindi {
+    margin-left: 86px;
+    margin-top: -30px;
+    color: rgb(111, 111, 111);
+    font-size: 18px;
+}
+
+.mega-box {
+    width: 92%;
+    height: 24px;
+    background: #f2f2f8;
+    margin-left: 16px;
+    margin-top: 26px;
+    border-radius: 7px;
+}
+
+.lastline {
+    font-size: 12px;
+    font-weight: 700;
+    margin-left: 16px;
+    margin-top: 6px;
+}
+
+.tagg {
+    height: 23px;
+    background-color: #007B2D;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 19px;
+    /* margin-top: 19px; */
+    /* margin-left: -29px; */
+    position: absolute;
+    top: 22px;
+    left: 204px;
+    width: 62px;
+    padding-top: 3px;
+    color: white;
+}
+
+.combo {
+    width: 100%;
+    height: 612px;
+
+    display: flex;
+    margin-top: 63px;
+}
+
+.fifty {
+    width: 40%;
+    height: 100%;
+}
+
+.h1 {
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 3.75rem;
+    color: rgb(29, 29, 29);
+    width: 34.5rem;
+    margin: 0px;
+
+}
+
+.borderhead {
+    margin-top: 38px;
+    margin-left: 31px;
+    padding-left: 27px;
+    border-bottom: 3px solid #D84E55;
+    width: 221px;
+    position: relative;
+}
+
+.coll6 {
+    margin-left: 21px;
+    /* margin-top: -28px; */
+    position: absolute;
+    top: 52px;
+    font-weight: 700;
+}
+
+.button {
+    width: 220px;
+    height: 52px;
+    background-color: #D84E55;
+    border-radius: 15px;
+    /* text-align: center; */
+    margin-top: 47px;
+    padding-top: 17px;
+    font-weight: 700;
+    padding-left: 14px;
+    text-transform: capitalize;
+    color: #F0F0F0;
+}
+
+.bigger {
+    width: 1000px;
+    height: 394px;
+    background-image: url(https://s1.rdbuz.com/web/images/homeV2/appinstall/appInstallbg.svg);
+    display: flex;
+    border-radius: 48px;
+    padding: 2rem;
+    flex-direction: column;
+    gap: 2rem;
+    background-size: cover;
+    background-position: right center;
+    margin-top: 150px;
+
+}
+
+.one {
+
+    padding: 3rem 2rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1rem;
+    width: 23.5rem;
+    height: 262px;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+
+.onetwo {
+    margin-top: 17px;
+    width: 303px;
+    height: 107px;
+    display: flex;
+}
+
+
+.half {
+    width: 150px;
+    border-right: #6b6b6b 2px solid;
+}
+
+
+.rating {
+    font-size: 28px;
+    font-weight: 700;
+    padding-left: 14px;
+    padding-bottom: 7px;
+    position: relative;
+    color: #4A4A4A;
+}
+
+.imgscan {
+    width: 395px;
+    height: 249px;
+    display: flex;
+}
+
+.Global {
+    margin-top: 193px;
+    font-size: 34px;
+    font-weight: 600;
+    width: 1137px;
+}
+
+.colom {
+    padding-top: 8px;
+    padding-left: 7px;
+    width: 96px;
+    height: 32px;
+    border-radius: 20px;
+    margin-top: 31px;
+    position: absolute;
+    top: 907px;
+    left: -1px;
+    font-weight: 600;
+    border-radius: 20px;
+}
+
+.colom:hover {
+    border-radius: 20px;
+    background-color: #E1E1E2;
+}
+
+.main2 {
+    width: 94%;
+    height: 85%;
+    position: absolute;
+    top: 3600px;
+    margin-left: 36px;
+}
+
+.bookk {
+    font-weight: 400;
+    font-size: 40px;
+    margin-left: 73px;
+}
+
+.para {
+    margin-top: 20px;
+    width: 1024px;
+    margin-left: 74px;
+    color: #1d1d1d;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 31px;
+}
+
+.read {
+    color: #00e;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2rem;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.ban {
+    width: 1000px;
+    height: 160px;
+    border: #D5D5D5 1px solid;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    margin-left: 71px;
+}
+
+.booknow {
+    width: 121px;
+    height: 45px;
+    background-color: #D84E55;
+    color: #F0F0F0;
+    font-weight: 600;
+    padding-top: 12px;
+    padding-left: 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-top: 50px;
+
+}
+
+.tabs {
+    margin-left: 40px;
+    height: 50px;
+}
+
+.tabbs {
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 40px;
+    display: flex;
+}
+
+.tabs:hover {
+    color: #D84E55;
+    border-bottom: #D84E55 solid 2px;
+}
+
+.qna {
+    width: 90%;
+    height: 90px;
+    border: #dbdbdb 1px solid;
+    margin-left: 72px;
+    margin-top: 40px;
+    border-radius: 20px;
+    padding-top: 35px;
+    padding-left: 20px;
+    font-weight: 600;
+}
+
+.footer {
+    width: 105%;
+    height: 100%;
+    background-color: #F6F6F6;
+    margin-left: -26px;
+    margin-top: 50px;
+}
+
+.uppp {
+    width: 100%;
+    height: 400px;
+
+    display: flex;
+}
+
+.downn {
+    width: 100%;
+    height: 90px;
+    background-color: #EDEDED;
+}
+
+.fb {
+    width: 18%;
+    height: 100%;
+    padding: 39px;
+    line-height: 26px;
+    font-size: 14px;
+    background-color: #EDEDED;
+    cursor: pointer;
+}
+
+.hnn input:focus {
+    outline: none;
+}
+
+
+.hn input:focus {
+    outline: none;
+}
+
+.hn {
+    opacity: 0;
+}
+
+.hn:hover {
+    opacity: 1;
+}
+
+.box3:hover {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.arrow {
+    width: 35px;
+    height: 50px;
+    border: #6b6b6b 1px solid;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 12px;
+    position: fixed;
+    top: 500px;
+    right: 30px;
+}
+
+.wallpaper {
+    width: 100%;
+    height: 450px;
+    /* background-image: url(../redbusimg/main-background.png); */
+    position: absolute;
+    top: 70px;
+    border-radius: 0px 0px 30px 30px;
+
+}
+
+.rail33 {
+    width: 80%;
+    height: 407px;
+
+    margin: auto;
+}
+
+.big {
+    margin-top: 20px;
+    margin-left: 162px;
+    font-size: 45px;
+    color: #fff;
+    font-weight: 700;
+}
+
+
+.blurbox {
+    border-radius: 72px;
+    border: 1px solid #474747;
+    border: 1px solid var(--Shades-Neutral-800, #474747);
+    background: rgba(92, 92, 92, .48);
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, .24);
+    -webkit-backdrop-filter: blur(25px);
+    backdrop-filter: blur(25px);
+    padding: 0 2rem 2rem;
+    margin-top: 26px;
+    height: 200px;
+    width: 900px;
+    margin-left: 60px;
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.radio {
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 19px;
+}
+
+.options {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.enterr {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    border: none;
+}
+
+.checkit {
+    width: 153px;
+    height: 100%;
+    background-color: #D84E55;
+    font-weight: 600;
+    color: #D5D5D5;
+    padding: 9px;
+    border-radius: 0px 6px 6px 0px;
+}
+
+.enterr input:focus {
+    outline: none;
+}
+
+.offerss {
+    width: 100%;
+    height: 80%;
+    color: #4A4A4A;
+    position: absolute;
+    top: 530px;
+}
+
+.uni {
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-top: 17px;
+    margin-bottom: 1rem;
+    color: var(--clr-gray-2);
+    text-align: center;
+}
+
+.clasing {
+    width: 100%;
+    height: 300px;
+}
+
+.irctc {
+    font-size: 1.75rem;
+    font-weight: 400;
+    line-height: 2.25rem;
+    color: #D84E55;
+    margin: .25rem 0;
+    margin-left: 405px;
+}
+
+.bookirt {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #474747;
+    margin: 12px;
+    margin-left: 104px;
+}
+
+.minubox {
+    width: 230px;
+    height: 130px;
+}
+
+.down {
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    color: var(--clr-gray-2);
+    margin-left: 513px;
+    margin-bottom: 30px;
+}
+
+.toto {
+    width: 1100px;
+    height: 600px;
+
+    margin: auto;
+    display: flex;
+}
+
+.phone {
+    width: 50%;
+    height: 100%;
+
+}
+
+.smallitm {
+    width: 500px;
+    height: 70px;
+    border: 1px solid;
+    background-color: #3E3E52;
+    border-radius: 40px;
+    color: #D5D5D5;
+    padding-left: 56px;
+    padding-top: 24px;
+    margin-top: 20px;
+}
+
+.smallitm:hover .vim {
+    opacity: 1;
+    visibility:visible ;
+}
+
+.vim {
+    position: absolute;
+    top: -192px;
+    left: 551px;
+    opacity: 0;
+    visibility: hidden;
+}
